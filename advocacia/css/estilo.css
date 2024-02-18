@@ -1,0 +1,73 @@
+body{
+    margin: 0; /* Removidas margens da página */
+    font-family: 'Fredoka', sans-serif; /* Fonte geral da página */
+}
+
+/* Primeira seção (Topo) */
+.secao-topo{
+    border-bottom: 1px solid #d5d5d5; /* Borda sólida de 1 pixel na parte inferior */
+}
+
+/* Essa classe é utilizada em todas as seções */
+.secao-largura-limitada{
+    width: 800px; /* Determina a largura do container  */
+    margin: 0 auto; /* Removida margens superior e inferior do container e margens esquerda e direita automáticas, centralizando o conteúdo  */
+}
+
+h1, h2, h3{
+    margin: 0; /* Removida as margens dos títulos e subtítulos gerais */
+}
+
+.secao-topo p{
+    padding: 20px; /* Espaçamento interno no parágrafo */
+    font-size: 22px; /* Tamanho de fonte do parágrafo */
+    font-weight: bold; /* Adiciona negrito ao parágrafo */
+}
+
+/* Segunda seção (Background Capa) */
+.secao-background-capa{
+    height: 500px; /* Define a altura do container */
+    background-image: url('../img/capa.jpg'); /* Define a imagem de fundo do container */
+    background-size: cover; /* Ocupa todo o espaço do container */
+}
+
+.secao-background-conteudo{
+    text-align: right; /* Alinha o texto à direita */
+    padding: 50px 20px; /* Espaçamento superior e inferior de 50 pixels e 20 pixels na esquerda e direita */
+}
+
+/* Terceira seção (Conteudo 1) */
+/* A classe secao-conteudo é utilizada também na 3ª, 5ª e 7ª seção */
+.secao-conteudo{
+    padding: 50px 20px; /* Espaçamento superior e inferior de 50 pixels e   */
+}
+
+.img-conteudo{
+    width: 250px; /* Largura da imagem */
+    height: 180px; /* Altura da imagem */
+}
+
+.secao-conteudo span{
+    border-left: 1px solid; /* Borda esquerda sólida do span */
+    padding-left: 10px; /* Espaçamento interior esquerdo no span */
+    font-size: 20px; /* Tamanho da fonte do span */
+}
+
+/* Essa classe é utilizada na 4ª seção (Background Divisão 1) e 6ª seção (Background Divisão 2) */
+.secao-background-divisao{
+    padding: 50px 0; /* Espaçamento interno superior e inferior de 50px e 0 nas laterais */
+    text-align: center; /* Centraliza o texto */
+    background-image: url('../img/fundo.jpg'); /* Define a imagem de fundo do container */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-size: cover; /* Ocupa todo o espaço do container */
+    background-attachment: fixed; /* Deixa a imagem fixa na página */
+}
+
+.secao-background-divisao h3{
+    font-size: 36px; /* Tamanho da fonte */
+    background-color: #ffffff; /* Cor de fundo do subtítulo h3 */
+    width: 200px; /* Largura do subtítulo */
+    margin: 0 auto; /* Margem superior e inferior de 0 e laterais automáticas */
+    border-radius: 20px; /* Arredondamento do subtítulo de 20px */
+}
+

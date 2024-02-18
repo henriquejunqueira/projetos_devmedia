@@ -1,0 +1,46 @@
+div{
+    width: 600px; /* Definido tamanho dos containers */
+    margin: 20px auto; /* Definida altura do container como 20px e laterais automáticas, centralizando o conteúdo */
+    font-family: Verdana; /* Família de fonte */
+    
+}
+
+h1, h2{
+    text-align: center; /* Centralizado o texto do título e subtítulo */
+}
+
+.banner img{
+    width: 600px; /* Definida a largura da imagem */
+    border-top: 1px solid #12BED0; /* Borda na parte superior da imagem */
+    padding-top: 20px; /* Espaçamento interno entre a imagem e a borda da imagem */
+    border-bottom: 1px solid #12BED0; /* Borda na parte inferior da imagem */
+    padding-bottom: 20px; /* Espaçamento interno entre a imagem e a borda da imagem */
+
+}
+
+p{
+    /*text-align: justify;*/ /* Desnecessário, estilização anterior */
+    /*font-family: Verdana;*/ /* Desnecessário, estilização anterior, pois já declarei na estilização da div */
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+p span{
+    font-weight: bold; /* Espessura da fonte (definido como negrito) */
+    color: #12BED0; /* Cor da fonte */
+}
+
+/* Texto azul do span (desnecessário, pois já foi definido no estilo p + span)*/
+/*.texto-azul{
+    color: #12BED0;
+}*/
+
+.span-italico{
+    font-style: italic; /* Definido estilo da fonte como itálico */
+    /*font-weight: normal;*/ /* Retirado, pois como o estilo p + span foi aplicado acima, se faz desnecessário */
+    border-left: 2px solid #000000; /* Borda esquerda de 2 pixels preta */
+    padding-left: 5px; /* Distância interna esquerda de 5 pixels */
+}
+
+.quarta-sessao img{
+    border: 10px solid #12BED0; /* Borda sólida nas imagens */
+}

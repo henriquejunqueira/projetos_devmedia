@@ -1,0 +1,71 @@
+body{
+    /*background-color: #c1c1c1;*/
+    /*background-color: #DFDFDF;*/
+    font-family: Tahoma; /* Família de fonte */
+    text-align: center; /* Centraliza os textos */
+    margin: 0; /* Remove as margens */
+}
+
+div{
+    width: 650px; /* Define um tamanho para os containers */
+    margin: 10px auto; /* Centraliza o cantainer */
+}
+
+h1{
+    font-size: 20px; /* Tamanho da fonte do título */
+}
+
+h2{
+    font-size: 16px; /* Tamanho da fonte do subtítulo */
+    font-weight: normal; /* Espessura do subtítulo */
+    margin-bottom: 0; /* Remove a margem da parte inferior  */
+}
+
+h3{
+    font-size: 16px; /* Tamanho da fonte do subtítulo */
+    margin-top: 0; /* Remove a margem da parte superior  */
+    margin-bottom: 5px; /* Coloca margem da parte inferior  */
+}
+
+p{
+    font-size: 14px; /* Tamanho da fonte do parágrafo */
+    margin-top: 0; /* Remove a margem da parte superior  */
+    margin-bottom: 0; /* Remove a margem da parte inferior  */
+}
+
+.secao-logo{
+    margin: 0 auto; /* Remove as margens superior e inferior e deixa as margens laterais automáticas */
+    background: #dfdfdf; /* Define a cor de fundo da seção da logo */
+    padding-top: 15px; /* Coloca espaçamento interno na parte superior da seção */
+    padding-bottom: 15px; /* Coloca espaçamento interno na parte inferior da seção */
+}
+
+.logotipo{
+    width: 150px; /* Define a largura da imagem da logo */
+    background-color: #ffffff; /* Define a cor de fundo da imagem */
+}
+
+.secao-idiomas{
+    width: 650px; /* Define a largura da seção de idiomas */
+    margin: 20px auto; /* Define a margem superior e inferior da seção como 20px e as margens laterais como automáticas */
+    padding-top: 10px; /* Coloca espaçamento interno na parte superior da seção */
+    padding-bottom: 10px; /* Coloca espaçamento interno na parte inferior da seção */
+}
+
+.secao-azul{
+    background-color: #0291dd; /* Define a cor de fundo da seção */
+    color: #ffffff; /* Define a cor do texto */
+}
+
+.secao-final{
+    width: 350px; /* Define a largura da seção de idiomas */
+    margin: 15px auto; /* Define a margem superior e inferior da seção como 15px e as margens laterais como automáticas */
+}
+
+.texto-azul{
+    color: #0291dd; /* Define a cor do texto */
+}
+
+.bandeira-idioma{
+    width: 30px; /* Tamanho das imagens de bandeira */
+}

@@ -1,0 +1,94 @@
+body{
+    background-color: #F1F1F1; /* Cor de fundo da página */
+}
+
+img{
+    width: 190px; /* Largura da imagem */
+}
+
+div{
+    width: 600px; /* Largura do container */
+    margin: 0px auto; /* Centralizado container na página */
+    text-align: center; /* Alinhamento centralizado para os textos */
+}
+
+h1{
+    font-size: 24px; /* Tamanho da fonte */
+    font-family: Verdana; /* Família da fonte */
+    color: #606062; /* Cor da fonte */
+    padding: 10px; /* Espaçamento interno do elemento */
+    border: 5px solid #606062; /* Borda sólida de 5 píxels cinza do título */
+}
+
+h2{
+    font-size: 20px; /* Tamanho da fonte */
+    font-family: Verdana; /* Família da fonte */
+    color: #7a797b; /* Cor da fonte */
+    margin-top: 35px; /* Definida margem superior do elemento */
+    margin-bottom: 35px; /* Definida margem inferior do elemento */
+}
+
+h3{
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: Verdana; /* Família da fonte */
+    font-weight: normal; /* Removido negrito */
+    color: #606062; /* Cor da fonte */
+    padding-top: 10px; /* Espaçamento interno superior do elemento */
+    padding-bottom: 10px; /* Espaçamento interno inferior do elemento */
+    /*margin-top: 30px;*/ /* Definida margem superior do elemento */
+    border-top: 2px solid #606062; /* Definida borda de 2 pixels cinza na parte superior do elemento */
+    border-bottom: 2px solid #606062; /* Definida borda de 2 pixels cinza na parte inferior do elemento */
+    text-transform: uppercase; /* Modificado texto para apenas maiúsculas */
+}
+
+p{
+    font-size: 18px; /* Tamanho da fonte */
+    font-family: Verdana; /* Família da fonte */
+    text-align: justify; /* Alinhamento do texto foi junstificado */
+    line-height: 32px; /* Altura da linha do texto */
+    color: #606062; /* Cor da fonte */
+    margin-bottom: 35px; /* Definida margem inferior do elemento */
+}
+
+span{
+    font-weight: bold; /* Adicionado negrito */
+}
+
+a{
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Verdana; /* Família da fonte */
+    font-weight: bold; /* Adicionado negrito */
+    text-decoration: none; /* Removido sublinhado */
+    padding: 10px 15px; /* Espaçamento interno de 10 pixels superior e inferior e 15 pixels nas laterais dentro do elemento */
+    margin-top: 15px; /* Definida margem superior fora do elemento */
+    color: #ffffff; /* Cor da fonte */
+    background-color: #25D366; /* Cor de fundo do link */
+    border-radius: 25px; /* Definido arredondamento das bordas do elemento */
+}
+
+/*
+a{
+    border-radius: 25px 30px 30px 25px;
+
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: #78ff04;
+    color: #000000;
+}
+
+div{
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+}
+
+    - border-radius: 80px 30px 70px 50px; Canto superior esquerdo, canto superior direito, canto inferior direito, canto 
+    inferior esquerdo
+
+    - border-radius: (top-left) (top-right) (bottom-right) (bottom-left);
+
+    - border-radius: 25px 10px; Canto superior esquerdo e canto inferior direito, canto superior direito e canto 
+    inferior esquerdo 
+
+*/

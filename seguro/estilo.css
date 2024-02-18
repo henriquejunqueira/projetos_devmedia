@@ -1,0 +1,68 @@
+body{
+    background-color: #c1c1c1; /* Definida cor de fundo da página */
+}
+
+div{
+    /*width: 500px; <== Minha configuração */
+    width: 600px; /* Definida largura do container */
+    margin: 20px auto; /* Container centralizado */
+    background-color: #ffffff; /* Definida cor de fundo do container */
+    /*margin: 5px auto 10px auto; <== Minha configuração */
+    /*padding: 30px 50px; <== Minha configuração */
+    padding: 40px 60px 60px 60px; /* Definido espaçamento interno no container entre os elementos */
+}
+
+h1{
+    /*width: 400px; <== Minha configuração */
+    /*font-size: 20px; <== Minha configuração */
+    font-size: 28px; /* Tamanho de fonte */
+    font-family: Verdana; /* Família de fonte */
+    background-color: #5EC330; /* Cor de fundo do elemento título */
+    color: #ffffff; /* Cor do texto do título */
+    margin-top: 0; /* Definida margem superior do elemento */
+    margin-bottom: 40px; /* Definida margem inferior do elemento */
+    padding: 10px; /* Definido espaçamento interno */
+    /*border-left: 5px solid #000000; <== Minha configuração */
+    border-left: 10px solid #212121; /* Definida borda esquerda */
+    /*border-radius: 0 30px 30px 0; <== Minha configuração */
+    border-radius: 0 25px 25px 0; /* Arredondamento das bordas do lado direito no elemento */
+    
+}
+
+img{
+    /*width: 500px; <== Minha configuração */
+    width: 600px; /* Largura da imagem */
+    /*margin: 20px auto; <== Minha configuração */
+}
+
+p{
+    /*font-size: 16px; <== Minha configuração */
+    font-size: 18px; /* Tamanho de fonte */
+    font-family: Verdana; /* Família de fonte */
+    margin-top: 40px; /* Definida margem superior do elemento */
+    margin-bottom: 50px; /* Definida margem inferior do elemento */
+    /*color: #000000; <== Minha configuração */
+}
+
+ul{
+    /*font-size: 16px; <== Minha configuração */
+    font-size: 18px; /* Tamanho de fonte */
+    font-family: Verdana; /* Família de fonte */
+    /*color: #000000; <== Minha configuração */
+}
+
+a{
+    /*width: 50px; <== Minha configuração */
+    /*font-size: 16px; <== Minha configuração */
+    font-size: 18px; /* Tamanho de fonte */
+    font-family: Verdana; /* Família de fonte */
+    text-decoration: none; /* Removido sublinhado do link */
+    background-color: #5EC330; /* Cor de fundo do elemento link */
+    color: #ffffff; /* Cor do texto do link */
+    /*padding: 10px; <== Minha configuração */
+    padding: 8px 15px; /* Definido espaçamento interno */
+    /*border-radius: 30px; <== Minha configuração */
+    border-radius: 20px; /* Arredondamento das bordas do elemento */
+    /*border: 1px solid #5EC330; <== Minha configuração */
+    /*margin: 10px auto; <== Minha configuração */
+}

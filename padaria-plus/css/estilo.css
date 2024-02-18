@@ -1,0 +1,68 @@
+body{
+    margin: 0; /* Remove as margens */
+    background-color: #f4f0e5; /* Cor de fundo da página */
+    font-family: Tahoma; /* Define a família de fonte para toda a a página */
+}
+
+.sessao{
+    width: 700px; /* Define a largura do container da sessão. Todas as sessões estão com essa classe */
+    margin: 20px auto; /* Centraliza o container dando 20px de espaçamento superior e inferior e deixando as laterais automáticas */
+    text-align: center; /* Centraliza o texto */
+}
+
+.imagem-logo{
+    width: 200px; /* Define a largura da imagem da logo */
+}
+
+a{
+    margin: 0 5px; /* Define o espaçamento de 5 pixels apenas entre as margens laterais dos links do menu */
+    color: #542f0c; /* Define a cor da fonte dos links */
+}
+
+h1{
+    font-size: 28px; /* Define o tamanho da fonte do título */
+    padding-top: 30px; /* Define o espaçamento interno superior do título */
+    margin-top: 30px; /* Define a margem superior do título */
+    margin-bottom: 0; /* Define a margem inferior do título */
+    border-top: 1px solid #de8e37; /* Define a borda superior do título */
+}
+
+h2{
+    font-weight: normal; /* Remove a espessura do subtítulo h2 */
+    color: #de8e37; /* Define a cor da fonte do subtítulo h2 */
+    margin-top: 10px; /* Define uma margem superior de 10 pixels para o subtítulo */
+}
+
+.imagem-banner{
+    width: 700px; /* Define largura da imagem */
+}
+
+.sessao-produto{
+    background-color: #de8e37; /* Define a cor de fundo do container da sessão */
+    padding-top: 15px; /* Define o espaçamento interno superior da sessão */
+    padding-bottom: 15px; /* Define o espaçamento interno inferior da sessão */
+    color: #ffffff; /* Define a cor das fontes dentro da sessão */
+}
+
+.sessao-produto h3{
+    font-size: 24px; /* Define o tamanho da fonte do subtítulo h3 */
+}
+
+.sessao-produto h4{
+    font-size: 20px; /* Define o tamanho da fonte do subtítulo h4 */
+    margin-bottom: 10px; /* Define a margem inferior do subtítulo h4 */
+}
+
+.secao-produto p{
+    width: 500px; /* Define a largura dos parágrafos dentro da sessão produto */
+    margin: 0 auto; /* Remove as margens superior e inferior da sessão produto e deixa as laterais automáticas  */
+    line-height: 30px; /* Define a altura dos parágrafos dentro da sessão produto */
+}
+
+.sessao-produto img{
+    width: 450px; /* Define largura da imagem dentro da sessão produto */
+}
+
+span{
+    font-weight: bold; /* Define os spans como negrito */
+}

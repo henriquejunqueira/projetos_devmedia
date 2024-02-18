@@ -1,0 +1,62 @@
+body{
+    padding: 0; /* Remove o espaçamento interno da página */
+    margin: 0; /* Remove as margens da página */
+}
+
+/* Primeira seção (Topo) */
+
+.primeira-secao-topo{
+    background-image: url('../img/capa.jpg'); /* Coloca uma imagem de fundo na seção */
+    background-size: cover; /* Define que a imagem de fundo ocupa todo o espaço do container */
+    background-attachment: fixed; /* Deixa a imagem fixa. Quando rolar a página ela não se move (efeito parallax) */
+
+    height: 600px; /* Define a altura do container */
+    padding: 20px; /* Define o espaçamento interno como 20 pixels para todos os lados */
+    
+}
+
+h1, h2{
+    margin: 0 auto; /* Remove as margens superior e inferior e deixa as margens esquerda e direita automáticas no título e subtítulo h2 */
+    color: #ffffff; /* Cor da fonte do título e subtítulo h2 */
+    padding: 10px; /* Espaçamento interno de 10 pixels */
+    width: 300px; /* Largura de 300 pixels */
+    text-align: center; /* Alinhamento centralizado */
+}
+
+h1{
+    background-color: #000000; /* Cor de fundo do título */
+}
+
+h2{
+    background-color: #ff0000; /* Cor de fundo do subtítulo */
+}
+
+/* Segunda seção (Conteúdo). A classe secao-conteudo também é utlizada na quarta seção */
+.secao-conteudo{
+    width: 800px; /* Define a largura do container */
+    margin: 0 auto; /* Remove as margens superior e inferior e deixa as margens esquerda e direita automáticas */
+    padding: 50px 20px; /* Espaçamento interno do container */
+}
+
+.secao-conteudo img{
+    width: 200px; /* Define a largura da imagem */
+    height: 250px; /* Define a altura da imagem */
+}
+
+/* Terceira seção (Imagem de fundo fixado). Essa seção não tem conteúdo, ela será usada para apenas ter uma imagem de fundo e dar um estilo interessante pra página */
+.terceira-secao-fundo-fixado{
+    background-image: url('../img/img1.jpg'); /* Coloca uma imagem de fundo na seção */
+    background-size: cover;  /* Define que a imagem de fundo ocupa todo o espaço do container */
+    background-attachment: fixed; /* Deixa a imagem fixa. Quando rolar a página ela não se move */
+    height: 200px; /* Define a altura da imagem */
+}
+
+p{
+    line-height: 26px; /* Altura do texto */
+}
+
+span{
+    background-color: #ff0000; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    padding: 10px 25px; /* Espaçamento interno */
+}
